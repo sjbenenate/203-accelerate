@@ -15,19 +15,40 @@ Text Domain:  accelerate-theme-child
   background: none repeat scroll 0 0 #45ac9d;
 }
 
-
-
-
 /* HOMEPAGE STYLES */
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
 
-
-
 .button {
 	background: #45ac9d;
 }
 
+.blog-post {
+  width: 50%;
+  float: left;
+  margin-bottom: 2em;  
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 0em 0 0em;
+}
+
+.blog-post h3 {
+	font-size: 1.5em;
+  margin: 1em 0;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+  font-size: 0.7em;
+  margin-top: 1.5em;
+}
 
 /*  END HOMEPAGE STYLES  */

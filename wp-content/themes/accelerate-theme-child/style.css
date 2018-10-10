@@ -52,3 +52,51 @@ Text Domain:  accelerate-theme-child
 }
 
 /*  END HOMEPAGE STYLES  */
+
+
+/* BEGIN CASE STUDY PAGE STYLES */
+.case-study {
+  width: 100%;
+}
+
+.case-study h2, .case-study h3, .case-study h4 {
+  margin: 0;
+}
+
+.case-study-sidebar {
+  width: 30%;
+  float: left;
+  padding-top: 90px;
+}
+
+.case-study h2 {
+  line-height: 1.5em;
+}
+
+.case-study h4 {
+  line-height: 1.6em;
+  font-weight: normal;
+}
+
+h4 .tag-line {
+  color: #a6a6a6;
+  font-size: 0.7em;
+}
+
+.case-study-sidebar h4 {
+  margin: 0;
+}
+
+.case-study-img-section {
+  width: 60%;
+  float: left;
+  margin: 5% 0 0 10%;
+}
+
+figure.case-study-img a img {
+  width: 100%;
+  margin-bottom: 5%; 
+}
+
+
+/* END CASE STUDY PAGE  */

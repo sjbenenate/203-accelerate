@@ -23,11 +23,36 @@ get_header(); ?>
 		</div><!-- .main-content -->
 	</div><!-- #primary -->
   
+  
+  <section class="featured-work">
+    <div class="site-content">
+      <h4>Featured Work</h4>
+      <ul>
+        <?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
+        <?php while ( have_posts() ) : the_post(); 
+              $image_1 = get_field('image_1');
+              $size = 'medium';?>
+              
+          <li class="featured-work-item"><a href=<?php the_permalink(); ?>>
+            <?php if( $image_1 ) {
+              echo wp_get_attachment_image( $image_1, $size );
+            } ?>
+            <h3><?php the_title(); ?><h3>
+          </a></li>
+          
+        <?php endwhile; ?> 
+        <?php wp_reset_query(); ?>
+        </ul>
+    </div>
+  </section>
+
+  
+  
   <section class="recent-posts">
     <div class="site-content">
       <div class="blog-post">
         <h4>From the Blog</h4>
-        <?php query_posts('posts_per_page=1'); ?>
+        <?php query_posts('posts_per_page=1&order=DESC'); ?>
         <?php while ( have_posts() ) : the_post(); ?>
           <h3><?php the_title(); ?><h3>
           <?php the_excerpt(); ?>

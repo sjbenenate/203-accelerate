@@ -33,17 +33,23 @@ get_header();  ?>
 
           <div class="case-study-img-section">
           
-            <?php if($image_1) { ?>
-              <figure class="case-study-img"><img src=" <?php echo $image_1['url']; ?> " /></figure>
-            <?php } ?>
+            <figure class="case-study-img">
+            <?php if( $image_1 ) {
+              echo wp_get_attachment_image( $image_1, $size );
+            } ?>
+            </figure>
             
-            <?php if($image_2) { ?>
-              <figure class="case-study-img"><img src=" <?php echo $image_2['url']; ?> " /></figure>
-            <?php } ?>
+            <figure class="case-study-img">
+            <?php if( $image_2 ) {
+              echo wp_get_attachment_image( $image_2, $size );
+            } ?>
+            </figure>
 
-            <?php if($image_3) { ?>
-              <figure class="case-study-img"><img src=" <?php echo $image_3['url']; ?> " /></figure>
-            <?php } ?>
+            <figure class="case-study-img">
+            <?php if( $image_3 ) {
+              echo wp_get_attachment_image( $image_3, $size );
+            } ?>
+            </figure>
               
           </div>
           

@@ -24,17 +24,22 @@ Text Domain:  accelerate-theme-child
 	background: #45ac9d;
 }
 
+.hero-content {
+  margin-bottom: 0em;
+}
+
 .blog-post {
   width: 50%;
   float: left;
-  margin-bottom: 2em;  
+  margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .blog-post h4 {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
-    margin: 0em 0 0em;
+    margin: 1em 0 0em;
 }
 
 .blog-post h3 {
@@ -50,6 +55,32 @@ Text Domain:  accelerate-theme-child
   font-size: 0.7em;
   margin-top: 1.5em;
 }
+
+.featured-work h4 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3em auto;
+}
+
+.featured-work h3 {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  margin: 0.5em 0 1em 0;
+}
+
+.featured-work ul {
+    margin: 0;
+    padding: 0;    
+    list-style-type: none;
+    text-align: center;
+}
+
+.featured-work ul li  {
+  width: 33%;
+
+  display: inline-block;
+}
+
 
 /*  END HOMEPAGE STYLES  */
 

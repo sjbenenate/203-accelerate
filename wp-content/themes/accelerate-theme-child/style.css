@@ -96,7 +96,9 @@ Text Domain:  accelerate-theme-child
 
 .case-study-sidebar {
   width: 30%;
-  float: left;
+  /*float: left;*/
+  display: inline-block;
+  vertical-align: top;
   padding-top: 90px;
 }
 
@@ -105,8 +107,12 @@ Text Domain:  accelerate-theme-child
 }
 
 .case-study h4 {
-  line-height: 1.6em;
+  line-height: 1.8em;
   font-weight: normal;
+}
+
+.case-study p {
+  margin: 30px 0;
 }
 
 h4 .tag-line {
@@ -120,8 +126,9 @@ h4 .tag-line {
 
 .case-study-img-section {
   width: 60%;
-  float: left;
-  margin: 5% 0 0 10%;
+  /*float: left;*/
+  display: inline-block;
+  margin: 5% 0 0 9%;
 }
 
 figure.case-study-img {

@@ -26,7 +26,7 @@ get_header(); ?>
   
   <section class="featured-work">
     <div class="site-content">
-      <h4>Featured Work</h4>
+      <h4><a href="<?php echo get_post_type_archive_link('case_studies'); ?>">Featured Work</a></h4>
       <ul>
         <?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
         <?php while ( have_posts() ) : the_post(); 

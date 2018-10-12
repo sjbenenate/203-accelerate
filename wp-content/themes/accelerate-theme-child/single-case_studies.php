@@ -58,8 +58,13 @@ get_header();  ?>
 
 				
 			<?php endwhile; // end of the loop. ?>
+      
 		</div><!-- .main-content -->
-
+    
 	</div><!-- #primary -->
 
+  <nav id="navigation" class="container">
+    <div class="left"><a href="<?php echo get_post_type_archive_link('case_studies'); ?>">&larr; <span>Back to Work</span></a></div>
+  </nav>
+   
 <?php get_footer(); ?>

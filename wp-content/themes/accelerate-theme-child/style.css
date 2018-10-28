@@ -48,8 +48,8 @@ Text Domain:  accelerate-theme-child
 #menu-social-media-nav li {
   display: inline-block;
   border-radius: 50%;
-  height: 20px;
-  width: 20px;
+  height: 23px;
+  width: 23px;
   background-color: #3B3B3B;
 }
 
@@ -57,24 +57,24 @@ a[href*="twitter"]:before {
   font-family: 'FontAwesome';
 	content: '\f099';
   position: relative;
-  top: -1.5px;
-  left: 3.5px;
+  top: 1px;
+  left: 4.5px;
 }
 
 a[href*="facebook"]:before {
   font-family: 'FontAwesome';
 	content: '\f09a';
   position: relative;
-  top: -1.5px;
-  left: 5px;
+  top: 1px;
+  left: 6px;
 }
 
 a[href*="linkedin"]:before {
   font-family: 'FontAwesome';
 	content: '\f0e1';
   position: relative;
-  top: -1.5px;
-  left: 4px;
+  top: 1px;
+  left: 6px;
 }
 
 /* END social media nav */

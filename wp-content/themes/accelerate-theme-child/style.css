@@ -57,7 +57,7 @@ a[href*="twitter"]:before {
   font-family: 'FontAwesome';
 	content: '\f099';
   position: relative;
-  top: -2px;
+  top: -1.5px;
   left: 3.5px;
 }
 
@@ -65,7 +65,7 @@ a[href*="facebook"]:before {
   font-family: 'FontAwesome';
 	content: '\f09a';
   position: relative;
-  top: -2px;
+  top: -1.5px;
   left: 5px;
 }
 
@@ -73,7 +73,7 @@ a[href*="linkedin"]:before {
   font-family: 'FontAwesome';
 	content: '\f0e1';
   position: relative;
-  top: -2px;
+  top: -1.5px;
   left: 4px;
 }
 

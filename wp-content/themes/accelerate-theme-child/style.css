@@ -73,8 +73,8 @@ a[href*="linkedin"]:before {
   font-family: 'FontAwesome';
 	content: '\f0e1';
   position: relative;
-  top: 1px;
-  left: 6px;
+  top: 0px;
+  left: 5.5px;
 }
 
 /* END social media nav */

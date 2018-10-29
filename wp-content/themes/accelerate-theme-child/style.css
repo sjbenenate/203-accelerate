@@ -16,6 +16,17 @@ Text Domain:  accelerate-theme-child
   background: none repeat scroll 0 0 #45ac9d;
 }
 
+h2, h3, h4 {
+  color: #2b2b2b;
+  margin: 0;
+}
+
+p {
+  color: #3b3b3b;
+  font-size: 0.8em;
+  margin: 0;
+}
+
 /* Text meant only for screen readers. */
 .screen-reader-text {
   border: 0;
@@ -125,12 +136,14 @@ a[href*="linkedin"]:before {
   text-align: center;
   text-transform: uppercase;
   margin: 3em auto;
+  color: #3a3939;
 }
 
 .featured-work h3 {
   font-family: 'Open Sans';
   font-weight: normal;
   margin: 0.5em 0 1em 0;
+  color: #3b3b3b;
 }
 
 .featured-work ul {
@@ -203,3 +216,59 @@ figure.case-study-img {
 
 
 /* END CASE STUDY PAGE  */
+
+/* Contact Us Page */
+
+.contact-width {
+  max-width: 600px;
+  margin: auto;
+}
+
+.half-width-field {
+  width: 48%;
+  
+}
+
+.name-field {
+  float: left;
+}
+
+
+.email-field {
+  float: right;
+  clear: none!important;
+}
+
+.nf-field-label {
+  font-size: 0.8em;
+}
+
+.submit-button {
+  float: right;
+}
+
+.button-element {
+  background: #45ac9d!important;
+}
+
+.confirmation-page h3 {
+  color: #45ac9d;
+}
+
+.confirmation-page h3, .confirmation-page p {
+  text-align: center;
+}
+
+.form-element {
+  margin-top: 8%;
+}
+
+.confirmation-page div {
+  position: relative;
+  top: -120px;
+  background: white;
+  width: 100%;
+  height: 140px;
+  padding-top: 30px;
+}
+/* END Contact Us Page */

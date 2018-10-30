@@ -264,11 +264,15 @@ figure.case-study-img {
 }
 
 .confirmation-page div {
+  margin: 6% 0;
+}
+
+/*.confirmation-page div {
   position: relative;
   top: -120px;
   background: white;
   width: 100%;
   height: 140px;
   padding-top: 30px;
-}
+}*/
 /* END Contact Us Page */

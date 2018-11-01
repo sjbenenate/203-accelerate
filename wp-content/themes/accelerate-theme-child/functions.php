@@ -38,5 +38,20 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
+    
+    register_post_type( 'about_blurbs',
+        array(
+            'labels' => array(
+                'name' => __( 'About Blurbs' ),
+                'singular_name' => __( 'About Blurb' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'about-blurbs' ),
+        )
+    );
+    
+    
+    
 }
 add_action( 'init', 'create_custom_post_types' );

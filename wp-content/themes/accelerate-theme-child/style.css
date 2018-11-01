@@ -276,3 +276,24 @@ figure.case-study-img {
   padding-top: 30px;
 }*/
 /* END Contact Us Page */
+
+
+/* About Page Styles */
+.about-footer {
+  max-width: 1000px;
+  text-align: center;
+  margin: auto;
+  border-top: 1px solid #bfbfbf;
+  padding: 10% 0;
+
+}
+
+.about-ft-tag {
+  float: left;
+}
+
+.about-ft-button {
+  float: right;
+}
+
+/* End About Page */

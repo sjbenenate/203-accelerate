@@ -37,7 +37,7 @@ get_header(); ?>
             <?php if( $image_1 ) {
               echo wp_get_attachment_image( $image_1, $size );
             } ?>
-            <h3><?php the_title(); ?><h3>
+            <h3><?php the_title(); ?></h3>
           </a></li>
           
         <?php endwhile; ?> 

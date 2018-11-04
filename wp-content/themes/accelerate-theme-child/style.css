@@ -281,6 +281,23 @@ figure.case-study-img {
 
 /* About Page Styles */
 
+.about-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(img/taxi-photo.jpg) no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  height: 15em;
+}
+
+.about-head p {
+  margin: 0 20%;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #fff;
+}
+
+
 .about-intro {
   text-align: center;
   width: 50%;

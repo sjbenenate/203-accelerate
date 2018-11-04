@@ -9,6 +9,10 @@
 
 get_header(); ?>
 
+<div class="about-head">
+  <p><?php echo get_field('about_head_paragraph'); ?></p>
+</div>
+
 	<div class="site-content">
 		<div class="main-content" role="main">
       <div class="about-intro">

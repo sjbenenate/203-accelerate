@@ -286,7 +286,7 @@ figure.case-study-img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url(img/taxi-photo.jpg) no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
   height: 15em;
 }
 
@@ -359,3 +359,37 @@ figure.case-study-img {
 }
 
 /* End About Page */
+
+/* 404 Page Styles */
+.page-404-wrap {
+  display: flex;
+  /*max-width: 600px;*/
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.page-404-icon {
+  margin: 0 2em;
+}
+
+.aside-404 {
+  flex-basis: 60%;
+}
+
+.aside-404 h2 {
+  color: #45ac9d;
+}
+
+.aside-404 p {
+  margin: 1em 0;  
+}
+
+.aside-404 .page-link {
+	font-weight: 700;
+	color: #45ac9d;
+}
+
+/* END 404 Page */

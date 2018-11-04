@@ -279,6 +279,32 @@ figure.case-study-img {
 
 
 /* About Page Styles */
+
+.about-article-aside {
+  width: 66%;
+}
+
+.about-icon {
+  width: 33%;
+}
+
+.icon-left-third div .about-article-aside {
+  float: right;
+  background: red;
+}
+
+.icon-left-third.about-icon {
+  float: left:
+}
+
+.icon-left-third.about-article-aside {
+  float: left:
+}
+
+.icon-left-third.about-icon {
+  float: right:
+}
+
 .about-footer {
   max-width: 1000px;
   text-align: center;

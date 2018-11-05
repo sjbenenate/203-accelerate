@@ -373,6 +373,8 @@ figure.case-study-img {
 
 .page-404-icon {
   margin: 0 2em;
+  max-width: 250px;
+  color: red;
 }
 
 .aside-404 {
@@ -381,15 +383,20 @@ figure.case-study-img {
 
 .aside-404 h2 {
   color: #45ac9d;
+  /*font-family: 'Spicy Rice', cursive;*/
+  /* font-family: 'Roboto Mono', monospace;*/
+  font-family: 'Indie Flower', 'Montserrat', 'Open Sans', Arial, sans-serif;
 }
 
 .aside-404 p {
   margin: 1em 0;  
+  font-family: 'Roboto Mono', 'Montserrat', 'Open Sans', Arial, sans-serif;
 }
 
 .aside-404 .page-link {
-	font-weight: 700;
+	font-weight: 400;
 	color: #45ac9d;
+  font-family: 'Fredoka One', 'Montserrat', 'Open Sans', Arial, sans-serif;
 }
 
 /* END 404 Page */

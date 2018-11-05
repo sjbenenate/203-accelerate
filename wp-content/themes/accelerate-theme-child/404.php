@@ -20,7 +20,7 @@ get_header(); ?>
       <div class="page-404-wrap">
         <figure class="page-404-icon">
           <?php
-            $img_src = get_stylesheet_directory_uri() . '/img/404-img.png';
+            $img_src = get_stylesheet_directory_uri() . '/img/road-sign-color.png';
           ?>
           <img src="<?php echo $img_src ?>"/>
         </figure>

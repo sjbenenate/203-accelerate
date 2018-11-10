@@ -65,7 +65,7 @@ p {
   background-color: #3B3B3B;
 }
 
-a[href*="twitter"]:before {
+#menu-social-media-nav a[href*="twitter"]:before {
   font-family: 'FontAwesome';
 	content: '\f099';
   position: relative;
@@ -73,7 +73,7 @@ a[href*="twitter"]:before {
   right: 4.5px;
 }
 
-a[href*="facebook"]:before {
+#menu-social-media-nav a[href*="facebook"]:before {
   font-family: 'FontAwesome';
 	content: '\f09a';
   position: relative;
@@ -81,7 +81,7 @@ a[href*="facebook"]:before {
   right: 8px;
 }
 
-a[href*="linkedin"]:before {
+#menu-social-media-nav a[href*="linkedin"]:before {
   font-family: 'FontAwesome';
 	content: '\f0e1';
   position: relative;
@@ -106,7 +106,7 @@ a[href*="linkedin"]:before {
 }
 
 .blog-post {
-  width: 50%;
+  width: 46%;
   float: left;
   margin-bottom: 2em;
   margin-top: 2em;
@@ -132,6 +132,43 @@ a[href*="linkedin"]:before {
   font-size: 0.7em;
   margin-top: 1.5em;
 }
+
+/* Twitter widget */ 
+.twitter-feed {
+  width: 46%;
+  float: right;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.twitter-feed h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 1em 0 0em;
+}
+
+.widget-title{
+	font-size: 1.5em;
+  padding: 1em 0 0.4em 0;
+}
+
+.tweet-wrapper p {
+  color: #3b3b3b;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1.15em;
+  line-height: 1.67em;
+}
+
+.follow-us-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+  font-size: 1em;
+  margin-top: 1.5em;
+}
+
 
 .featured-work h4 {
   text-align: center;

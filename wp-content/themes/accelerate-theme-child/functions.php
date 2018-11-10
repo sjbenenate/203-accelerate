@@ -22,6 +22,8 @@ function accelerate_child_scripts(){
   wp_enqueue_style( 'font-awesome', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
 
   wp_enqueue_style( 'accelerate-child-google-fonts', '//fonts.googleapis.com/css?family=Fredoka+One|Indie+Flower|Roboto+Mono:400,700' );
+  
+  wp_enqueue_style( 'accelerate-scripts', get_template_directory_uri() . '/scripts.js' );
 }
 add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
 
